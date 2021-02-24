@@ -49,11 +49,11 @@ docker rmi node-docker-volume:1.0.0
 ### Volume Content Inspection
 
 ```bash
-docker run -it \
+docker run \
  --rm \
  -v node-docker-volume_1.0.0:/usr/src/app \
- --entrypoint=/bin/sh \
- node:12-alpine
+ --entrypoint=/bin/ls \
+ node:12-alpine /usr/src/app -l -a
 ```
 
 ### Volume Size Inspection
