@@ -1,5 +1,5 @@
 {
-  "name": "hello-docker-volume",
+  "name": "node-docker-volume",
   "version": "1.0.0",
   "description": "```bash\r docker pull node:12-alpine\r ```",
   "main": "hello.js",

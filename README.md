@@ -39,7 +39,7 @@ docker run --rm \
 
 ### Cleanup
 ```bash
-docker rmi hello-docker-volume:1.0.0
+docker rmi node-docker-volume:1.0.0
 ```
 
 ## Remark
