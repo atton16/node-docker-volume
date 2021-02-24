@@ -1,5 +1,7 @@
 # node-docker-volume
 
+An example of how to run node.js code stored on external volume on node base image
+
 ## Steps
 
 ### Download the base image
