@@ -58,5 +58,5 @@ docker run \
 
 ### Volume Size Inspection
 ```bash
-docker system df -v | grep node_docker_volume_1.0.0
+docker system df -v | grep node-docker-volume_1.0.0
 ```
