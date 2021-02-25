@@ -40,11 +40,18 @@ docker run --rm \
 ```
 
 ### Cleanup
+
 ```bash
 docker rmi node-docker-volume:1.0.0
 ```
 
 ## Remark
+
+### Image Content Inspection
+
+```bash
+docker run --rm -it --entrypoint /bin/sh node-docker-volume:1.0.0
+```
 
 ### Volume Content Inspection
 
@@ -57,6 +64,7 @@ docker run \
 ```
 
 ### Volume Size Inspection
+
 ```bash
 docker system df -v | grep node-docker-volume_1.0.0
 ```
