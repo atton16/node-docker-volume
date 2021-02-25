@@ -2,9 +2,9 @@
   "name": "node-docker-volume",
   "version": "1.0.0",
   "description": "An example of how to run node.js code stored on external volume on node base image",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "echo \"Fake build successful.\" && exit 0",
+    "build": "mkdir -p dist && cp index.js dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
