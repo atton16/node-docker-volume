@@ -1,8 +1,8 @@
 {
   "name": "node-docker-volume",
   "version": "1.0.0",
-  "description": "```bash\r docker pull node:12-alpine\r ```",
-  "main": "hello.js",
+  "description": "An example of how to run node.js code stored on external volume on node base image",
+  "main": "index.js",
   "scripts": {
     "build": "echo \"Fake build successful.\" && exit 0",
     "test": "echo \"Error: no test specified\" && exit 1"
